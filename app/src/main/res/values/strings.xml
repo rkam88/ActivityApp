@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ActivityApp</string>
+
+    <string name="text_catalog_activity">This is the Catalog Activity</string>
+    <string name="text_map_activity">This is the Map Activity</string>
+    <string name="text_search_activity">This is the Search Activity</string>
+    <string name="text_account_activity">This is the Account Activity</string>
+
+    <string name="account_test_link">market://account</string>
+    <string name="catalog_test_link">http://my.market.com/catalog</string>
+    <string name="main_website_test_link">http://my.market.com</string>
+    <string name="map_test_link">http://my.market.com/map</string>
+    <string name="search_test_link">http://my.market.com/search</string>
+
+    <string name="text_account_test_link">Account test link</string>
+    <string name="text_catalog_test_link">Catalog test link</string>
+    <string name="text_main_website_test_link">Main website test link</string>
+    <string name="text_map_test_link">Map test link</string>
+    <string name="text_search_test_link">Search test link</string>
+
+    <string name="text_saved_strings">The saved strings are:</string>
+</resources>

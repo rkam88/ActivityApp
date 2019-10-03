@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Catalog"
+    android:padding="@dimen/activity_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_search_activity"
+        android:textAppearance="@style/InfoTextAppearance"
+        style="@style/InfoTextStyle"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="@dimen/line_margin"
+        android:layout_marginBottom="@dimen/line_margin"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_saved_strings"
+        android:textAppearance="@style/InfoTextAppearance"
+        style="@style/InfoTextStyle"
+        />
+
+    <TextView
+        android:id="@+id/text_string_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/RandomStringsAppearance"
+        />
+
+    <TextView
+        android:id="@+id/text_string_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/RandomStringsAppearance"
+        />
+
+</LinearLayout>
